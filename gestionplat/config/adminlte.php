@@ -344,54 +344,6 @@ return [
                 ],
             ],
         ],
-        // [
-        //     'text' => 'Demandes',
-        //     'icon' => 'fas fa-fw fa-arrow-alt-circle-right',
-        //     'submenu' => [
-        //         [
-        //             'text' => 'List of Demandes',
-        //             'url'  => 'demandes',
-        //             'icon' => 'fas fa-fw fa-list',
-        //         ],
-        //         [
-        //             'text' => 'Create',
-        //             'url'  => 'demandes/create',
-        //             'icon' => 'fas fa-fw fa-user-plus',
-        //         ],
-        //     ],
-        // ],
-        // [
-        //     'text' => 'Revenus',
-        //     'icon' => 'fas fa-fw fa-arrow-alt-circle-right',
-        //     'submenu' => [
-        //         [
-        //             'text' => 'List of Revenus',
-        //             'url'  => 'revenus',
-        //             'icon' => 'fas fa-fw fa-list',
-        //         ],
-        //         [
-        //             'text' => 'Create',
-        //             'url'  => 'revenus/create',
-        //             'icon' => 'fas fa-fw fa-user-plus',
-        //         ],
-        //     ],
-        // ],
-        // [
-        //     'text' => 'Formations',
-        //     'icon' => 'fas fa-fw fa-arrow-alt-circle-right',
-        //     'submenu' => [
-        //         [
-        //             'text' => 'List of Formations',
-        //             'url'  => 'formations',
-        //             'icon' => 'fas fa-fw fa-list',
-        //         ],
-        //         [
-        //             'text' => 'Create',
-        //             'url'  => 'formations/create',
-        //             'icon' => 'fas fa-fw fa-user-plus',
-        //         ],
-        //     ],
-        // ],
     ],
 
     /*

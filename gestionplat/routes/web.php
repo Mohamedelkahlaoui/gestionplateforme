@@ -7,9 +7,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProjetsController;
 use App\Http\Controllers\CandidatureController;
 use App\Http\Controllers\JeuneController;
-use App\Http\Controllers\DemandeController;
-use App\Http\Controllers\RevenuController;
-use App\Http\Controllers\FormationController;
+
 use App\Http\Controllers\ProvinceController;
 use App\Http\Controllers\CommuneController;
 use App\Http\Controllers\PartenaireController;
@@ -49,12 +47,6 @@ Route::get('/candidatures', [AuthManager::class, 'candidatures'])->name('candida
 Route::resource('/candidatures', CandidatureController::class);
 Route::get('/jeunes', [AuthManager::class, 'jeunes'])->name('jeunes');
 Route::resource('/jeunes', JeuneController::class);
-Route::get('/demandes', [AuthManager::class, 'demandes'])->name('demandes');
-Route::resource('/demandes', DemandeController::class);
-Route::get('/revenus', [AuthManager::class, 'revenus'])->name('revenus');
-Route::resource('/revenus', RevenuController::class);
-Route::get('/formations', [AuthManager::class, 'formations'])->name('formations');
-Route::resource('/formations', FormationController::class);
 Route::get('/provinces', [AuthManager::class, 'provinces'])->name('provinces');
 Route::resource('/provinces', ProvinceController::class);
 Route::get('/communes', [AuthManager::class, 'communes'])->name('communes');
